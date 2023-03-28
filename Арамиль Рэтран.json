@@ -1,0 +1,2616 @@
+{
+    "schema_version": 3,
+    "type": "character",
+    "character": {
+        "oldId": "-MdsczRq8T9SPWJp5xqQ",
+        "name": "Арамиль Рэтран",
+        "avatar": "https://s3.amazonaws.com/files.d20.io/images/232531357/0FKv4xBttpFWRdP2qiwprw/med.jpg?1625542521",
+        "bio": "%3Cp%3E%u043A%u0442%u043E%20%u044D%u0442%u043E%3F%3C/p%3E",
+        "gmnotes": "",
+        "defaulttoken": "",
+        "tags": "[]",
+        "controlledby": "-MUj3ywOI-gWQKRerIeS,-MQgSvNwvNRmIwVILubk",
+        "inplayerjournals": "-MUj3ywOI-gWQKRerIeS,-Mkre9uUlNLLut-zpx69",
+        "attribs": [
+            {
+                "name": "npc",
+                "current": "",
+                "max": "",
+                "id": "-MdsczUZTuaWpz8iW37n"
+            },
+            {
+                "name": "l1mancer_status",
+                "current": "completed",
+                "max": "",
+                "id": "-MdsczU_bmL1hrQJQ8sT"
+            },
+            {
+                "name": "rtype",
+                "current": "@{advantagetoggle}",
+                "max": "",
+                "id": "-MdsczU_bmL1hrQJQ8sU"
+            },
+            {
+                "name": "strength_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{strength-save-u}}} {{mod=@{strength_save_bonus}}} {{r1=[[@{d20}+@{strength_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{strength_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczV6FzetReBGWKHs"
+            },
+            {
+                "name": "dexterity_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{dexterity-save-u}}} {{mod=@{dexterity_save_bonus}}} {{r1=[[@{d20}+@{dexterity_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{dexterity_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczV7SSIiFybxdE__"
+            },
+            {
+                "name": "constitution_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{constitution-save-u}}} {{mod=@{constitution_save_bonus}}} {{r1=[[@{d20}+@{constitution_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{constitution_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczV8LhN9mDbpDMp2"
+            },
+            {
+                "name": "intelligence_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{intelligence-save-u}}} {{mod=@{intelligence_save_bonus}}} {{r1=[[@{d20}+@{intelligence_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{intelligence_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczV9wlTilGgonDBU"
+            },
+            {
+                "name": "wisdom_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{wisdom-save-u}}} {{mod=@{wisdom_save_bonus}}} {{r1=[[@{d20}+@{wisdom_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{wisdom_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVA6g4eatRuVG5S"
+            },
+            {
+                "name": "charisma_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{charisma-save-u}}} {{mod=@{charisma_save_bonus}}} {{r1=[[@{d20}+@{charisma_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{charisma_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVBg9BpuMj2-U2N"
+            },
+            {
+                "name": "honor_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{honor-save-u}}} {{mod=@{honor_save_bonus}}} {{r1=[[@{d20}+@{honor_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{honor_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVCzvLi2jR1eWSM"
+            },
+            {
+                "name": "sanity_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{sanity-save-u}}} {{mod=@{sanity_save_bonus}}} {{r1=[[@{d20}+@{sanity_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{sanity_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVDRr7IPBTH2Z2P"
+            },
+            {
+                "name": "athletics_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{athletics-u}}} {{mod=@{athletics_bonus}}} {{r1=[[@{d20}+1[strength]@{pbd_safe}]]}} @{advantagetoggle}+1[strength]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVDRr7IPBTH2Z2Q"
+            },
+            {
+                "name": "acrobatics_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{acrobatics-u}}} {{mod=@{acrobatics_bonus}}} {{r1=[[@{d20}+5[dexterity]@{pbd_safe}]]}} @{advantagetoggle}+5[dexterity]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVFxMhXFJsAzvZz"
+            },
+            {
+                "name": "sleight_of_hand_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{sleight_of_hand-u}}} {{mod=@{sleight_of_hand_bonus}}} {{r1=[[@{d20}+4[Proficiency]+5[dexterity]@{pbd_safe}]]}} @{advantagetoggle}+4[Proficiency]+5[dexterity]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVFxMhXFJsAzv_-"
+            },
+            {
+                "name": "stealth_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{stealth-u}}} {{mod=@{stealth_bonus}}} {{r1=[[@{d20}+4[Proficiency]+5[dexterity]@{pbd_safe}]]}} @{advantagetoggle}+4[Proficiency]+5[dexterity]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVGVpKUzwvOR-IF"
+            },
+            {
+                "name": "arcana_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{arcana-u}}} {{mod=@{arcana_bonus}}} {{r1=[[@{d20}+-1[intelligence]@{pbd_safe}]]}} @{advantagetoggle}+-1[intelligence]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVIrEGQDIonNqPb"
+            },
+            {
+                "name": "history_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{history-u}}} {{mod=@{history_bonus}}} {{r1=[[@{d20}+-1[intelligence]@{pbd_safe}]]}} @{advantagetoggle}+-1[intelligence]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVIrEGQDIonNqPc"
+            },
+            {
+                "name": "investigation_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{investigation-u}}} {{mod=@{investigation_bonus}}} {{r1=[[@{d20}+4[Proficiency]-1[intelligence]@{pbd_safe}]]}} @{advantagetoggle}+4[Proficiency]-1[intelligence]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVJlHFCl5OWs1cZ"
+            },
+            {
+                "name": "nature_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{nature-u}}} {{mod=@{nature_bonus}}} {{r1=[[@{d20}+-1[intelligence]@{pbd_safe}]]}} @{advantagetoggle}+-1[intelligence]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVKB5ShNulmqozm"
+            },
+            {
+                "name": "religion_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{religion-u}}} {{mod=@{religion_bonus}}} {{r1=[[@{d20}+-1[intelligence]@{pbd_safe}]]}} @{advantagetoggle}+-1[intelligence]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVLBcPzCdd4-qvu"
+            },
+            {
+                "name": "animal_handling_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{animal_handling-u}}} {{mod=@{animal_handling_bonus}}} {{r1=[[@{d20}+4[Proficiency]+3[wisdom]@{pbd_safe}]]}} @{advantagetoggle}+4[Proficiency]+3[wisdom]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVMjcPrvdadMVUK"
+            },
+            {
+                "name": "insight_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{insight-u}}} {{mod=@{insight_bonus}}} {{r1=[[@{d20}+4[Proficiency]+3[wisdom]@{pbd_safe}]]}} @{advantagetoggle}+4[Proficiency]+3[wisdom]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVMjcPrvdadMVUL"
+            },
+            {
+                "name": "medicine_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{medicine-u}}} {{mod=@{medicine_bonus}}} {{r1=[[@{d20}+3[wisdom]@{pbd_safe}]]}} @{advantagetoggle}+3[wisdom]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVOvH5nwM4Fj2qK"
+            },
+            {
+                "name": "perception_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{perception-u}}} {{mod=@{perception_bonus}}} {{r1=[[@{d20}+4[Proficiency]+7[Mods]@{pbd_safe}]]}} @{advantagetoggle}+4[Proficiency]+7[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVPoKj7Rm2Lwmh8"
+            },
+            {
+                "name": "survival_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{survival-u}}} {{mod=@{survival_bonus}}} {{r1=[[@{d20}+3[wisdom]@{pbd_safe}]]}} @{advantagetoggle}+3[wisdom]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVPoKj7Rm2Lwmh9"
+            },
+            {
+                "name": "deception_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{deception-u}}} {{mod=@{deception_bonus}}} {{r1=[[@{d20}+4[Proficiency]@{pbd_safe}]]}} @{advantagetoggle}+4[Proficiency]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVQTS3iToSEmtw4"
+            },
+            {
+                "name": "intimidation_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{intimidation-u}}} {{mod=@{intimidation_bonus}}} {{r1=[[@{d20}+@{intimidation_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{intimidation_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVR7XnZ0uAdn4o8"
+            },
+            {
+                "name": "performance_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{performance-u}}} {{mod=@{performance_bonus}}} {{r1=[[@{d20}+@{performance_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{performance_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVSWdiSkFQSmLbg"
+            },
+            {
+                "name": "persuasion_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{persuasion-u}}} {{mod=@{persuasion_bonus}}} {{r1=[[@{d20}+@{persuasion_bonus}[Mods]@{pbd_safe}]]}} @{advantagetoggle}+@{persuasion_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-MdsczVSWdiSkFQSmLbh"
+            },
+            {
+                "name": "hitdieroll",
+                "current": "10",
+                "max": "",
+                "id": "-Mdsd3tv3JL64jlPN82G"
+            },
+            {
+                "name": "showleveler",
+                "current": 0,
+                "max": "",
+                "id": "-Mdsd3twaTBWUy2mBmLz"
+            },
+            {
+                "name": "invalidXP",
+                "current": 0,
+                "max": "",
+                "id": "-Mdsd3tyMV_TgYrjMN61"
+            },
+            {
+                "name": "version",
+                "current": 4.21,
+                "max": "",
+                "id": "-Mdsd3uGBVyY5ZEX3IPv"
+            },
+            {
+                "name": "appliedUpdates",
+                "current": "upgrade_to_4_2_1,fix_spell_attacks,fix_pc_skill_and_saving_rolls,fix_pc_saving_rolls,fix_pc_skill_and_saving_rolls_with_expertise,fix_pc_skill_and_saving_rolls_with_reliable_talent,enable_powerful_build_on_existing_characters,fix_pc_global_critical_damage_rolls,fix_pc_global_critical_stacked_damage_rolls,fix_pc_skill_rolls_tooltips,fix_pc_global_statical_critical_damage,fix_spell_school_ouput,fix_pc_global_multiple_statical_critical_damage,fix_spell_savedc_output,fix_spellpoints,fix_advantage_query,fix_attacks_spelllink,fix_pc_skills_when_jack_and_odd_prof,fix_armor_stealth_penalty,fix_pc_printedskills",
+                "max": "",
+                "id": "-Mdsd3uHlrCdXkM1ONsR"
+            },
+            {
+                "name": "global_damage_mod_roll",
+                "current": "",
+                "max": "",
+                "id": "-Mdsd3uW6_wnFV3Zc0_C"
+            },
+            {
+                "name": "global_damage_mod_crit",
+                "current": "",
+                "max": "",
+                "id": "-Mdsd3uX04uJiZQsHBi3"
+            },
+            {
+                "name": "global_damage_mod_type",
+                "current": "",
+                "max": "",
+                "id": "-Mdsd3uX04uJiZQsHBi4"
+            },
+            {
+                "name": "queryadvantage",
+                "current": "{{query=1}} ?{Advantage?|Normal Roll,&#123&#123normal=1&#125&#125 &#123&#123r2=[[0d20|Advantage,&#123&#123advantage=1&#125&#125 &#123&#123r2=[[@{d20}|Disadvantage,&#123&#123disadvantage=1&#125&#125 &#123&#123r2=[[@{d20}}",
+                "max": "",
+                "id": "-Mdsd3unIkxiWj35V9cm"
+            },
+            {
+                "name": "mancer_confirm_flag",
+                "current": "",
+                "max": "",
+                "id": "-Mdsd3utr-lgkzhwcrG0"
+            },
+            {
+                "name": "mancer_confirm",
+                "current": "on",
+                "max": "",
+                "id": "-MdsruAmQ8Ztk2cs95ce"
+            },
+            {
+                "name": "charactermancer_step",
+                "current": "l1-welcome",
+                "max": "",
+                "id": "-MdsruD1v8jpA01zUPa5"
+            },
+            {
+                "name": "class",
+                "current": "Ranger",
+                "max": "",
+                "id": "-Mdsrvjxuy6uawh-bhKn"
+            },
+            {
+                "name": "hitdie_final",
+                "current": "?{Hit Die Class|Ranger,@{hitdietype}|Fighter,10}",
+                "max": "",
+                "id": "-MdsrvmKKIOS1l4CRDpT"
+            },
+            {
+                "name": "level",
+                "current": 11,
+                "max": "",
+                "id": "-MdsrvmP3JZAG4J2z5h6"
+            },
+            {
+                "name": "caster_level",
+                "current": 4,
+                "max": "",
+                "id": "-MdsrvmVhC_UYYdzo2be"
+            },
+            {
+                "name": "class_display",
+                "current": "Сумрачный охотник Ranger 8, Мистический лучник Fighter 3",
+                "max": "",
+                "id": "-MdsrvmaLX6VZUSL66so"
+            },
+            {
+                "name": "hit_dice",
+                "current": 11,
+                "max": 11,
+                "id": "-MdsrvmfA86ycwDZPFfZ"
+            },
+            {
+                "name": "pb",
+                "current": "4",
+                "max": "",
+                "id": "-Mdsrvn6aSUSm3VSSEzs"
+            },
+            {
+                "name": "jack",
+                "current": 2,
+                "max": "",
+                "id": "-MdsrvngFrDpiTxUCoVC"
+            },
+            {
+                "name": "pbd_safe",
+                "current": "",
+                "max": "",
+                "id": "-MdsrvnsHo3GQReKT6r4"
+            },
+            {
+                "name": "lvl1_slots_total",
+                "current": 4,
+                "max": "",
+                "id": "-Mdsrvo7MT_bBAeg5WWN"
+            },
+            {
+                "name": "lvl2_slots_total",
+                "current": 3,
+                "max": "",
+                "id": "-MdsrvoTEWgT1SUNEPwS"
+            },
+            {
+                "name": "lvl3_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvocElLFlveITHUa"
+            },
+            {
+                "name": "lvl4_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvorMOGOvloQJmyY"
+            },
+            {
+                "name": "lvl5_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-Mdsrvp6mhvpKX62sW5K"
+            },
+            {
+                "name": "lvl6_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvpDVCTl39Gub0w4"
+            },
+            {
+                "name": "lvl7_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvpLwQwFxjPUxAjF"
+            },
+            {
+                "name": "lvl8_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvpXff2fp_mVbcsF"
+            },
+            {
+                "name": "lvl9_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-Mdsrvpb8fI8HeXnGGZ8"
+            },
+            {
+                "name": "spell_attack_bonus",
+                "current": 7,
+                "max": "",
+                "id": "-Mdsrvq4FmACp8fnF3U_"
+            },
+            {
+                "name": "spell_save_dc",
+                "current": 15,
+                "max": "",
+                "id": "-MdsrvqD7cSu4E2PUjjt"
+            },
+            {
+                "name": "jack_bonus",
+                "current": "",
+                "max": "",
+                "id": "-Mdsrvqebvh7vBFgYdqR"
+            },
+            {
+                "name": "jack_attr",
+                "current": "",
+                "max": "",
+                "id": "-Mdsrvqkk8EzJOZ_wsHJ"
+            },
+            {
+                "name": "initiative_bonus",
+                "current": 8,
+                "max": "",
+                "id": "-MdsrvsYA6b-yTkEyekO"
+            },
+            {
+                "name": "strength_save_bonus",
+                "current": 5,
+                "max": "",
+                "id": "-MdsrvtU65bz0vOQ9YUZ"
+            },
+            {
+                "name": "dexterity_save_bonus",
+                "current": 9,
+                "max": "",
+                "id": "-Mdsrvt_kl4RF-i1kHKa"
+            },
+            {
+                "name": "constitution_save_bonus",
+                "current": 2,
+                "max": "",
+                "id": "-Mdsrvtf8RvWVtSsF4f9"
+            },
+            {
+                "name": "intelligence_save_bonus",
+                "current": -1,
+                "max": "",
+                "id": "-Mdsrvtj9FFwZzELL_qL"
+            },
+            {
+                "name": "wisdom_save_bonus",
+                "current": 3,
+                "max": "",
+                "id": "-Mdsrvtn5EJT_fFGodxB"
+            },
+            {
+                "name": "charisma_save_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvtqffGmRpe-p5WA"
+            },
+            {
+                "name": "honor_save_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvtuGs4G7vq7QBXm"
+            },
+            {
+                "name": "sanity_save_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvtyzhxHaje22RqC"
+            },
+            {
+                "name": "death_save_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-Mdsrvu0usXc8YJrKBSR"
+            },
+            {
+                "name": "athletics_bonus",
+                "current": 1,
+                "max": "",
+                "id": "-Mdsrvu3I5hIYiMqP1mX"
+            },
+            {
+                "name": "acrobatics_bonus",
+                "current": 5,
+                "max": "",
+                "id": "-Mdsrvu66reExkYmoPup"
+            },
+            {
+                "name": "sleight_of_hand_bonus",
+                "current": 9,
+                "max": "",
+                "id": "-MdsrvuB3HsUs0SzwlPd"
+            },
+            {
+                "name": "stealth_bonus",
+                "current": 9,
+                "max": "",
+                "id": "-MdsrvuFbtjBV-9X-zuD"
+            },
+            {
+                "name": "arcana_bonus",
+                "current": -1,
+                "max": "",
+                "id": "-MdsrvuJSylRSTzJ3kE8"
+            },
+            {
+                "name": "history_bonus",
+                "current": -1,
+                "max": "",
+                "id": "-MdsrvuM_kTCn6FdyrLV"
+            },
+            {
+                "name": "investigation_bonus",
+                "current": 3,
+                "max": "",
+                "id": "-MdsrvuPxHuUsdFRFXkm"
+            },
+            {
+                "name": "nature_bonus",
+                "current": -1,
+                "max": "",
+                "id": "-MdsrvuTqO4u4HWUrANU"
+            },
+            {
+                "name": "religion_bonus",
+                "current": -1,
+                "max": "",
+                "id": "-MdsrvuWPKHXgajsQvmu"
+            },
+            {
+                "name": "animal_handling_bonus",
+                "current": 7,
+                "max": "",
+                "id": "-Mdsrvu_qur8cwFrAbKG"
+            },
+            {
+                "name": "insight_bonus",
+                "current": 7,
+                "max": "",
+                "id": "-Mdsrvudo-P6ZQREGD6s"
+            },
+            {
+                "name": "medicine_bonus",
+                "current": 3,
+                "max": "",
+                "id": "-MdsrvugdqFbDr0AYl-C"
+            },
+            {
+                "name": "perception_bonus",
+                "current": 11,
+                "max": "",
+                "id": "-Mdsrvuk7Kejwvv8F42W"
+            },
+            {
+                "name": "survival_bonus",
+                "current": 3,
+                "max": "",
+                "id": "-MdsrvunkX4h7IhbIcp6"
+            },
+            {
+                "name": "deception_bonus",
+                "current": 4,
+                "max": "",
+                "id": "-MdsrvurdGVuuIcY5rjn"
+            },
+            {
+                "name": "intimidation_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvuuaJX1pptz33ej"
+            },
+            {
+                "name": "performance_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvuxcFx1ZvSnoon7"
+            },
+            {
+                "name": "persuasion_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-Mdsrvv-iMWneqDUZQIL"
+            },
+            {
+                "name": "hitdietype",
+                "current": "10",
+                "max": "",
+                "id": "-MdsrvwDLCP64TKw2Oju"
+            },
+            {
+                "name": "spellcasting_ability",
+                "current": "@{wisdom_mod}+",
+                "max": "",
+                "id": "-MdsrvwKmTrvWSqsX8qY"
+            },
+            {
+                "name": "strength_save_prof",
+                "current": "(@{pb})",
+                "max": "",
+                "id": "-MdsrvwO6eB7ZVgOsdHl"
+            },
+            {
+                "name": "dexterity_save_prof",
+                "current": "(@{pb})",
+                "max": "",
+                "id": "-MdsrvwSk4qG9PH-2L1w"
+            },
+            {
+                "name": "constitution_save_prof",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvwW0LS8JznHEnKL"
+            },
+            {
+                "name": "intelligence_save_prof",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvwaLBRnOoSB5ecg"
+            },
+            {
+                "name": "wisdom_save_prof",
+                "current": 0,
+                "max": "",
+                "id": "-MdsrvwfsKjtWDoDvWbo"
+            },
+            {
+                "name": "charisma_save_prof",
+                "current": 0,
+                "max": "",
+                "id": "-Mdsrvwjx3iAv9_sp0TO"
+            },
+            {
+                "name": "death_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{death-save-u}}} {{mod=@{death_save_bonus}}} {{r1=[[@{d20}+@{death_save_bonus}@{pbd_safe}]]}} @{advantagetoggle}+@{death_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-Mdsrw9Fq9GDfuQZ_3Ea"
+            },
+            {
+                "name": "passive_wisdom",
+                "current": 21,
+                "max": "",
+                "id": "-Mdsrw9JWoniwYIVhEnb"
+            },
+            {
+                "name": "hero_points",
+                "current": 10,
+                "max": "",
+                "id": "-MdsrwMD_ATGGCRJJS1e"
+            },
+            {
+                "name": "tab",
+                "current": "core",
+                "max": "",
+                "id": "-Mdsrxmt25JGn9HTtWtw"
+            },
+            {
+                "name": "base_level",
+                "current": "8",
+                "max": "",
+                "id": "-MdssAQiQypAv3ORkqQJ"
+            },
+            {
+                "name": "speed",
+                "current": "35",
+                "max": "",
+                "id": "-MdstNOuRFD51jy5w0vG"
+            },
+            {
+                "name": "age",
+                "current": "140",
+                "max": "",
+                "id": "-MdstebvE9-et0Ii1IqP"
+            },
+            {
+                "name": "size",
+                "current": "средний",
+                "max": "",
+                "id": "-Mdstg2LqN9UYpDeJ4dV"
+            },
+            {
+                "name": "weighttotal",
+                "current": 3.88,
+                "max": "",
+                "id": "-Mdstg5uLf8ldMu-cH39"
+            },
+            {
+                "name": "encumberance",
+                "current": " ",
+                "max": "",
+                "id": "-Mdstg5yz3LxlJ3H2be0"
+            },
+            {
+                "name": "height",
+                "current": "193",
+                "max": "",
+                "id": "-MdstkMsymNHX9Jsuxhu"
+            },
+            {
+                "name": "weight",
+                "current": "79",
+                "max": "",
+                "id": "-MdstslZVuQ8hUNpVAsY"
+            },
+            {
+                "name": "eyes",
+                "current": "серые",
+                "max": "",
+                "id": "-MdstuDwaZ29Pber150q"
+            },
+            {
+                "name": "skin",
+                "current": "есть",
+                "max": "",
+                "id": "-MdstvGwH7EBllJxlf9c"
+            },
+            {
+                "name": "hair",
+                "current": "белые",
+                "max": "",
+                "id": "-MdstzFJB0SS3g-keHpy"
+            },
+            {
+                "name": "perception_prof",
+                "current": "(@{pb}*@{perception_type})",
+                "max": "",
+                "id": "-MdsuDtM7oOCIT7wD5OT"
+            },
+            {
+                "name": "race",
+                "current": "Эльф",
+                "max": "",
+                "id": "-MdsuLRJlisePmmYjCEU"
+            },
+            {
+                "name": "race_display",
+                "current": "Лесной Эльф",
+                "max": "",
+                "id": "-MdsuLVYcg6pC0sTD03A"
+            },
+            {
+                "name": "subrace",
+                "current": "Лесной Эльф",
+                "max": "",
+                "id": "-MdsuOpTTMNt07G-Y969"
+            },
+            {
+                "name": "options-class-selection",
+                "current": "0",
+                "max": "",
+                "id": "-MdsuZQrceZ08Q_qD-ZA"
+            },
+            {
+                "name": "alignment",
+                "current": "хаотично доброе",
+                "max": "",
+                "id": "-MdsueP7lg_u_qL72Zn3"
+            },
+            {
+                "name": "background",
+                "current": "Беспризорник",
+                "max": "",
+                "id": "-MdszfVdUjxO1NszihVS"
+            },
+            {
+                "name": "repeating_inventory_-MdtCBouWeBenRi-EvpS_itemname",
+                "current": "бесконечный колчан",
+                "max": "",
+                "id": "-MdtCDahc8wV0yT3jyB0"
+            },
+            {
+                "name": "repeating_inventory_-MdtCDsIMn2Ln-F44gvm_itemname",
+                "current": "длинный лук предупреждения",
+                "max": "",
+                "id": "-MdtCFb1md6VNXDhZMLi"
+            },
+            {
+                "name": "repeating_inventory_-MdtCJZuYciAut4-xF-T_itemcount",
+                "current": "2",
+                "max": "",
+                "id": "-MdtCKZLxn_invec7N--"
+            },
+            {
+                "name": "repeating_inventory_-MdtCJZuYciAut4-xF-T_itemname",
+                "current": "(супер) кинжалы",
+                "max": "",
+                "id": "-MdtCLM3Hx6n9MAQXAAx"
+            },
+            {
+                "name": "allies_and_organizations",
+                "current": "Борис и Игорь\n(пара кинжалов),\nСоздатель\nЭти кинжалы созданы аберрациями. Они были создан аберрациями в древние времена, возможно, для использования избранными гуманоидными рабами. Если смотреть на Бориса и Игоря боковым зрением, кажется, что он шевелится.\n\nРазум\nБорис и Игорь — разумные нейтрально-злые кинжалы с Интеллектом 17, Мудростью 13 и Харизмой 13. Они предусмотрительные, но брезгливые.\n\nЧувства\nБорис и Игорь обладают слухом и тёмным зрением в пределах 120 футов.\n\nМанера общения\nБорис и Игорь могут говорить, читать и понимать на языках: Всеобщий. Кроме того, он может общаться телепатически с персонажем, несущим или использующим его. Борис и Игорь иногда меняют цвет.\n\nОсобенности\nМалое свойство: Подземный житель\nНаходясь под землёй, владелец всегда знает расстояние до поверхности земли и направление до ближайшей лестницы, подъёма, или любого другого пути, ведущего наверх.\n\nПричудливая особенность: Скупой\nВладелец становится одержим жаждой материального богатства.\n\nПредыстория: Магия\nЗрелый Стежок был создан древним орденом заклинателей и содержит его символ.\n\nЦель: Искатель славы\nБорис и Игорь стремятся прослыть самым великим магическим предметом в мире, сделав владельца знаменитостью. Если владелец отказывается следовать целям предмета, возникает конфликт.\n\nЛичность\nИдеал\nКрасота\n\nХарактер\nСварлив\n\nПривязанность\nПреданность выполнению цели\n\nСлабость\nОсобая фобия\n\n\n\n\n\n\n\n\n",
+                "max": "",
+                "id": "-MdtDBmkJQsnZD_8Z16X"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_atkname",
+                "current": "Длинный магический лук",
+                "max": "",
+                "id": "-MdtDNWWxqyQo4dpfa8n"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_atkdmgtype",
+                "current": "1d8+6 колющий ",
+                "max": "",
+                "id": "-MdtDNa3zQX8fcWxLG53"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_rollbase_dmg",
+                "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d8 + 1[STR] + 5[MOD]]]}} {{dmg1type=колющий}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+                "max": "",
+                "id": "-MdtDNa66t7COxOSbp4A"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_rollbase_crit",
+                "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d8 + 1[STR] + 5[MOD]]]}} {{dmg1type=колющий}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[2d8]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+                "max": "",
+                "id": "-MdtDNaATH3yATKe0hgb"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_atkbonus",
+                "current": "+12",
+                "max": "",
+                "id": "-MdtDNaEwkqMzAF5JkgE"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_rollbase",
+                "current": "@{wtype}&{template:atkdmg} {{mod=@{atkbonus}}} {{rname=@{atkname}}} {{r1=[[@{d20}cs>@{atkcritrange} + 5[DEX] + 3[MOD] + 4[PROF]]]}} @{rtype}cs>@{atkcritrange} + 5[DEX] + 3[MOD] + 4[PROF]]]}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d8 + 1[STR] + 5[MOD]]]}} {{dmg1type=колющий}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[2d8[CRIT]]]}} {{crit2=[[0[CRIT]]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} ammo=@{ammo} @{charname_output}",
+                "max": "",
+                "id": "-MdtDNaIEprFOtIxP5Kg"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_atkmod",
+                "current": "3",
+                "max": "",
+                "id": "-MdtDWkVV2LfdkGEvbI1"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_atkrange",
+                "current": "далеко",
+                "max": "",
+                "id": "-MdtDmise0XJysbdQx_e"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_dmgbase",
+                "current": "1d8",
+                "max": "",
+                "id": "-MdtDzQpyWIBDaE9FSvA"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_dmgtype",
+                "current": "колющий",
+                "max": "",
+                "id": "-MdtE0f50X9ZLAX8JaZ6"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_dmgcustcrit",
+                "current": "2d8",
+                "max": "",
+                "id": "-MdtE2IB6Wcx2_0KmBXO"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_dmgmod",
+                "current": "5",
+                "max": "",
+                "id": "-MdtE3qTzSXY38gjkniD"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_atk_desc",
+                "current": "чота какой-то лук",
+                "max": "",
+                "id": "-MdtElaiZfjWpKGVutDe"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtEowthXpmWnY7VdCR"
+            },
+            {
+                "name": "wtype",
+                "current": "?{Whisper?|Public Roll,|Whisper Roll,/w gm }",
+                "max": "",
+                "id": "-MdtFeQNi6EMndBGcX6D"
+            },
+            {
+                "name": "dtype",
+                "current": "full",
+                "max": "",
+                "id": "-MdtFezb4tpAg55w6vE_"
+            },
+            {
+                "name": "multiclass1",
+                "current": "Fighter",
+                "max": "",
+                "id": "-MdtFjejaLpjfbIyaWhE"
+            },
+            {
+                "name": "multiclass1_flag",
+                "current": "1",
+                "max": "",
+                "id": "-MdtFjvAjJRIBh0CBLUn"
+            },
+            {
+                "name": "multiclass1_lvl",
+                "current": "3",
+                "max": "",
+                "id": "-MdtFlSoydQfM-gfCyZn"
+            },
+            {
+                "name": "use_per_class_hit_dice",
+                "current": "0",
+                "max": "",
+                "id": "-MdtFyEFfRFfJzCmjYn6"
+            },
+            {
+                "name": "repeating_hd_-MdtFyJ3pZ6uRT6fN84b_type",
+                "current": "4",
+                "max": "",
+                "id": "-MdtFyJ833gibfYFKdqo"
+            },
+            {
+                "name": "repeating_hd_-MdtFyJ3pZ6uRT6fN84b_size",
+                "current": 8,
+                "max": "",
+                "id": "-MdtFyJD-mcLCPbNBkoz"
+            },
+            {
+                "name": "repeating_hd_-MdtFyJ3pZ6uRT6fN84b_available",
+                "current": 4,
+                "max": "",
+                "id": "-MdtFyJIRFX9dW9NZsz1"
+            },
+            {
+                "name": "repeating_hd_-MdtFyJ3pZ6uRT6fN84c_type",
+                "current": "10",
+                "max": "",
+                "id": "-MdtFyJNGmpj1cW2nHmy"
+            },
+            {
+                "name": "repeating_hd_-MdtFyJ3pZ6uRT6fN84c_size",
+                "current": "5",
+                "max": "",
+                "id": "-MdtFyJSIx-JClscwQjS"
+            },
+            {
+                "name": "repeating_hd_-MdtFyJ3pZ6uRT6fN84c_available",
+                "current": 7,
+                "max": "",
+                "id": "-MdtFyJVBXlCbafZtKeP"
+            },
+            {
+                "name": "spell_attack_mod",
+                "current": 0,
+                "max": "",
+                "id": "-MdtG1a_Jm_r64WRXMGV"
+            },
+            {
+                "name": "strength_base",
+                "current": "12",
+                "max": "",
+                "id": "-MdtG99AkyxlSwI2MNfZ"
+            },
+            {
+                "name": "strength_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MdtG9G1tir4wWENQeiA"
+            },
+            {
+                "name": "strength",
+                "current": 12,
+                "max": "",
+                "id": "-MdtG9G7jL1pC6gwtrH0"
+            },
+            {
+                "name": "strength_mod",
+                "current": 1,
+                "max": "",
+                "id": "-MdtG9IFKrWZ5DgQzUo9"
+            },
+            {
+                "name": "npc_str_negative",
+                "current": 0,
+                "max": "",
+                "id": "-MdtG9IKq9dLK1_j_VyH"
+            },
+            {
+                "name": "dexterity_base",
+                "current": "20",
+                "max": "",
+                "id": "-MdtGDoqGNPftgnvYkq4"
+            },
+            {
+                "name": "dexterity_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MdtGDt30C1_Ko59eXbb"
+            },
+            {
+                "name": "dexterity",
+                "current": 20,
+                "max": "",
+                "id": "-MdtGDt7K6nQTNhAa2vM"
+            },
+            {
+                "name": "dexterity_mod",
+                "current": 5,
+                "max": "",
+                "id": "-MdtGDvBFuyc8EBaIXSv"
+            },
+            {
+                "name": "npc_dex_negative",
+                "current": 0,
+                "max": "",
+                "id": "-MdtGDvFb6XFDGue5IXi"
+            },
+            {
+                "name": "armorwarningflag",
+                "current": "hide",
+                "max": "",
+                "id": "-MdtGDyDGvpP37dxsBpo"
+            },
+            {
+                "name": "customacwarningflag",
+                "current": "hide",
+                "max": "",
+                "id": "-MdtGDyHr3ApIDMeGPMr"
+            },
+            {
+                "name": "ac",
+                "current": 15,
+                "max": "",
+                "id": "-MdtGDyLYyz70EjUaa6e"
+            },
+            {
+                "name": "constitution_base",
+                "current": "14",
+                "max": "",
+                "id": "-MdtGF9y1K0Jrpbb1Yr8"
+            },
+            {
+                "name": "constitution_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MdtGFEZExDjXW2oq6HL"
+            },
+            {
+                "name": "constitution",
+                "current": 14,
+                "max": "",
+                "id": "-MdtGFEbqW3oHC9IOeUl"
+            },
+            {
+                "name": "constitution_mod",
+                "current": 2,
+                "max": "",
+                "id": "-MdtGFGehd3dqpz9YaYd"
+            },
+            {
+                "name": "npc_con_negative",
+                "current": 0,
+                "max": "",
+                "id": "-MdtGFGieCHcreeKtPzA"
+            },
+            {
+                "name": "intelligence_base",
+                "current": "8",
+                "max": "",
+                "id": "-MdtGJIX_tSw8L9Tp9L9"
+            },
+            {
+                "name": "intelligence_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MdtGJNSCUpLC0xmnzpE"
+            },
+            {
+                "name": "intelligence",
+                "current": 8,
+                "max": "",
+                "id": "-MdtGJNWibYheduRJ009"
+            },
+            {
+                "name": "intelligence_mod",
+                "current": -1,
+                "max": "",
+                "id": "-MdtGJPbGjf2uJvD4foE"
+            },
+            {
+                "name": "npc_int_negative",
+                "current": 1,
+                "max": "",
+                "id": "-MdtGJPee-dtXQuj4gab"
+            },
+            {
+                "name": "wisdom_base",
+                "current": "16",
+                "max": "",
+                "id": "-MdtGOy3y5HoH41Ti6ke"
+            },
+            {
+                "name": "wisdom_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MdtGP0QOqGP2P8XzCJo"
+            },
+            {
+                "name": "wisdom",
+                "current": 16,
+                "max": "",
+                "id": "-MdtGP0U3MqIieVMoR7y"
+            },
+            {
+                "name": "wisdom_mod",
+                "current": 3,
+                "max": "",
+                "id": "-MdtGP2TId4DD6h322ni"
+            },
+            {
+                "name": "npc_wis_negative",
+                "current": 0,
+                "max": "",
+                "id": "-MdtGP2Xq_c84J5jhYk1"
+            },
+            {
+                "name": "charisma_base",
+                "current": "10",
+                "max": "",
+                "id": "-MdtGPHcpaASnHpfeAoX"
+            },
+            {
+                "name": "charisma_flag",
+                "current": 0,
+                "max": "",
+                "id": "-MdtGPN-0vIsP-UwONHJ"
+            },
+            {
+                "name": "charisma",
+                "current": 10,
+                "max": "",
+                "id": "-MdtGPN3b6IAYFbHHcx1"
+            },
+            {
+                "name": "charisma_mod",
+                "current": 0,
+                "max": "",
+                "id": "-MdtGPS68UtnWmFexArL"
+            },
+            {
+                "name": "npc_cha_negative",
+                "current": 0,
+                "max": "",
+                "id": "-MdtGPSAzMP10Dy_GLlD"
+            },
+            {
+                "name": "repeating_traits_-MdtGc6gTcrDQM6TPRZ9_name",
+                "current": "Эльфийская Точность ",
+                "max": "",
+                "id": "-MdtGcxBGpIasvIn5-GN"
+            },
+            {
+                "name": "repeating_traits_-MdtGc6gTcrDQM6TPRZ9_description",
+                "current": "очность эльфов легендарна, особенно это касается эльфийских лучников и заклинателей. Вы обладаете сверхъестественной меткостью, когда дело касается атак, требующих меткости, а не грубой силы. Вы получаете следующие преимущества:\n\n--Увеличьте значение вашей Ловкости, Интеллекта, Мудрости или Харизмы на 1 при максимуме 20.\n--Когда у вас есть преимущество на бросок атаки, использующей Ловкость, Интеллект, Мудрость или Харизму, вы можете перебросить один из кубов один раз.",
+                "max": "",
+                "id": "-MdtGe-k4yIvgrBj6Qw6"
+            },
+            {
+                "name": "repeating_traits_-MdtGc6gTcrDQM6TPRZ9_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtGe0yEVzPbNyFVIq1"
+            },
+            {
+                "name": "repeating_traits_-MdtGc6gTcrDQM6TPRZ9_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MdtGeNBGHA7euEiDHnW"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtGuoIJtIEqwoKXBid_prof_type",
+                "current": "ДРУГОЕ",
+                "max": "",
+                "id": "-MdtGvbsc8JbVIa98-KU"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtGuoIJtIEqwoKXBid_name",
+                "current": "Вы можете предпринять попытку спрятаться, даже если вы слабо заслонены листвой, сильным дождём, снегопадом, туманом или другими природными явлениями.",
+                "max": "",
+                "id": "-MdtGxELT-A7QpoJRdFM"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtGuoIJtIEqwoKXBid_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtGyz1pTcsxDozLYDw"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtH5YDekz0kMvrWUeL_prof_type",
+                "current": "ДРУГОЕ",
+                "max": "",
+                "id": "-MdtH5yqJpK76q-Q5Wuz"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtH5YDekz0kMvrWUeL_name",
+                "current": "Вы совершаете с преимуществом спасброски от очарования, и вас невозможно магически усыпить.",
+                "max": "",
+                "id": "-MdtH91rWt_yA_b_QyGX"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtH5YDekz0kMvrWUeL_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtHAyPxMkt1di5yTLq"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtHPxD4hWOX0qNC2BT_name",
+                "current": "Общий, Эльфийский, Драконий, Гоблинский, .",
+                "max": "",
+                "id": "-MdtHVjpTir7mZHaar3F"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtHPxD4hWOX0qNC2BT_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtHVl-tGY1YXNcJgGp"
+            },
+            {
+                "name": "repeating_traits_-MdtGc6gTcrDQM6TPRZ9_source",
+                "current": "Черта",
+                "max": "",
+                "id": "-MdtJaDDCD33uWmnZcHm"
+            },
+            {
+                "name": "hp",
+                "current": "64",
+                "max": "64",
+                "id": "-MdtL9gc6cv6Bm2Ma6P8"
+            },
+            {
+                "name": "repeating_hd_-MdtFyJ3pZ6uRT6fN84b_consumed",
+                "current": "1",
+                "max": "",
+                "id": "-MdtLGUjFKLVlyUHXNjE"
+            },
+            {
+                "name": "deception_prof",
+                "current": "(@{pb}*@{deception_type})",
+                "max": "",
+                "id": "-MdtNG2L8ruFd_SqiAv8"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtNoj6xS3EXuSEjiJT_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtNqrVP600PDUvkZ1V"
+            },
+            {
+                "name": "repeating_traits_-MdtOHZfVSq5PlsqIbuc_source",
+                "current": "Класс",
+                "max": "",
+                "id": "-MdtOIZihsgEocHDRD__"
+            },
+            {
+                "name": "repeating_traits_-MdtOHZfVSq5PlsqIbuc_name",
+                "current": "Боевой стиль стрельба\\оборона",
+                "max": "",
+                "id": "-MdtOMoah9gm9n_K5C1a"
+            },
+            {
+                "name": "repeating_traits_-MdtOHZfVSq5PlsqIbuc_description",
+                "current": "Стрельба. Вы получаете бонус +2 к броску атаки, когда атакуете дальнобойным оружием.\nОборона. Пока вы носите доспехи, вы получаете бонус +1 к КД.",
+                "max": "",
+                "id": "-MdtOOlX8vtemHeJfVze"
+            },
+            {
+                "name": "repeating_traits_-MdtOHZfVSq5PlsqIbuc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtOOmu6P4t_rJ2oCTH"
+            },
+            {
+                "name": "repeating_traits_-MdtOHZfVSq5PlsqIbuc_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MdtOPE5xn8Fp0qPIMh6"
+            },
+            {
+                "name": "repeating_traits_-MdtP5hfQQB-2yYNLdmh_name",
+                "current": "ИЗБРАННЫЙ ВРАГ(гуманоиды)",
+                "max": "",
+                "id": "-MdtPi7wJK76j0SmLfEJ"
+            },
+            {
+                "name": "repeating_traits_-MdtP5hfQQB-2yYNLdmh_source",
+                "current": "Класс",
+                "max": "",
+                "id": "-MdtPiSrO-QCZSBu1o5p"
+            },
+            {
+                "name": "repeating_traits_-MdtP5hfQQB-2yYNLdmh_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtPkXMGtN5DP2tJQpS"
+            },
+            {
+                "name": "repeating_traits_-MdtP5hfQQB-2yYNLdmh_description",
+                "current": "--Вы совершаете с преимуществом проверки Мудрости (Выживание) для выслеживания избранных врагов, а также проверки Интеллекта для вспоминания информации о них.\n\n--Когда вы получаете это умение, вы также обучаетесь одному из языков, на котором говорит ваш избранный враг.\n\n--Вы получаете бонус +2 урона при атаке по вашему избранному врагу.",
+                "max": "",
+                "id": "-MdtPtC0vc4ldWzCRjf9"
+            },
+            {
+                "name": "repeating_traits_-MdtP5hfQQB-2yYNLdmh_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MdtQJ7a4BTB1Wml5LkS"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellname",
+                "current": "Град шипов",
+                "max": "",
+                "id": "-MdtRk8bUoxelj7Q7YW3"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellschool",
+                "current": "conjuration",
+                "max": "",
+                "id": "-MdtRknAgdQhwmI3x3t4"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellcastingtime",
+                "current": "1 бонусное действие",
+                "max": "",
+                "id": "-MdtRnADga53_BHXcwkL"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellrange",
+                "current": "на себя",
+                "max": "",
+                "id": "-MdtRnuavT3OfyLjYQxk"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spelltarget",
+                "current": "хз",
+                "max": "",
+                "id": "-MdtRpuSmfsPlqXJSm-G"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellcomp_m",
+                "current": "0",
+                "max": "",
+                "id": "-MdtRq4g5DyPxS_lVo0z"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellcomp_s",
+                "current": "0",
+                "max": "",
+                "id": "-MdtRqDSPS7rAEC1QL_9"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellconcentration",
+                "current": "{{concentration=1}}",
+                "max": "",
+                "id": "-MdtRrGBjgJVRck9i7lL"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellduration",
+                "current": "до 1 минуты",
+                "max": "",
+                "id": "-MdtRsq4P-LffKGyETkD"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spell_ability",
+                "current": "@{wisdom_mod}+",
+                "max": "",
+                "id": "-MdtRtDrIfuRwA_NoBRX"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_roll_output_dc",
+                "current": 15,
+                "max": "",
+                "id": "-MdtRtNEY1jy43UKLRIK"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spelldescription",
+                "current": "В следующий раз, когда вы попадёте по существу дальнобойной атакой оружием, пока активно это заклинание, из дальнобойного оружия или боеприпаса вылетит град шипов. В дополнение к обычному эффекту атаки, цель и все существа в пределах 5 футов от неё, должны совершить спасбросок Ловкости. При провале существо получает колющий урон 1к10, или половину этого урона при успехе.",
+                "max": "",
+                "id": "-MdtS-gDZGxXEA8gq2Mi"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellathigherlevels",
+                "current": "Если вы накладываете это заклинание, используя ячейку 2 уровня или выше, урон увеличивается на 1к10 за каждый уровень ячейки выше первого (до максимума 6к10).",
+                "max": "",
+                "id": "-MdtS2bOH4Cap5KGac7T"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_rollcontent",
+                "current": "@{wtype}&{template:spell} {{level=@{spellschool} ?{Cast at what level? @{spelllevel}|Level 1,1|Level 2,2|Level 3,3|Level 4,4|Level 5,5|Level 6,6|Level 7,7|Level 8,8|Level 9,9}}} {{name=@{spellname}}} {{castingtime=@{spellcastingtime}}} {{range=@{spellrange}}} {{target=@{spelltarget}}} @{spellcomp_v} @{spellcomp_s} @{spellcomp_m} {{material=@{spellcomp_materials}}} {{duration=@{spellduration}}} {{description=@{spelldescription}}} {{athigherlevels=@{spellathigherlevels}}} @{spellritual} {{innate=@{innate}}} {{savedc=@{spell_save_dc}}} @{spellconcentration} @{charname_output}",
+                "max": "",
+                "id": "-MdtS2miETK6faFHid2e"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellclass",
+                "current": "следопыт",
+                "max": "",
+                "id": "-MdtS4S_keYe48ekUnxH"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellsource",
+                "current": "1 лвл",
+                "max": "",
+                "id": "-MdtS6G4NUYNRCYCKLoh"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtS6HnJZELRTktgwTz"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtS8BQdV8dbR5Yy_Bw"
+            },
+            {
+                "name": "repeating_spell-1_-MdtRhsw7SDH6eJc1QA6_spellprepared",
+                "current": "1",
+                "max": "",
+                "id": "-MdtS8fKGwqLkxfGrGoh"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellname",
+                "current": "Метка Охотника",
+                "max": "",
+                "id": "-MdtSIe4_j7RPfTycGKy"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellschool",
+                "current": "divination",
+                "max": "",
+                "id": "-MdtSJMm-3PBfIYmZ4mn"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellcastingtime",
+                "current": "1 бонусное действие",
+                "max": "",
+                "id": "-MdtSLw4rTfdhV1RU0cO"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellrange",
+                "current": "90 футов",
+                "max": "",
+                "id": "-MdtSNKTI0bLrxalu9me"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spelltarget",
+                "current": "хз",
+                "max": "",
+                "id": "-MdtSP97x6_qnzb0aBTk"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellcomp_s",
+                "current": "0",
+                "max": "",
+                "id": "-MdtSPANjYBJGSmEDlVI"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellcomp_m",
+                "current": "0",
+                "max": "",
+                "id": "-MdtSPKKU_qTVMn6CWCe"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellconcentration",
+                "current": "{{concentration=1}}",
+                "max": "",
+                "id": "-MdtSPuifP6bAdhYmvHo"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spell_ability",
+                "current": "@{wisdom_mod}+",
+                "max": "",
+                "id": "-MdtSS5eXfZ_seBsm_hG"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_roll_output_dc",
+                "current": 15,
+                "max": "",
+                "id": "-MdtSSHX1dlhITYwt3bo"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellduration",
+                "current": "до 1 минуты",
+                "max": "",
+                "id": "-MdtSTx_Xk5Z32ONP7vQ"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellclass",
+                "current": "следопыт",
+                "max": "",
+                "id": "-MdtSWRKwPeXI37PKctJ"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellsource",
+                "current": "1 лвл",
+                "max": "",
+                "id": "-MdtSZ1jjFXSKup_Oj4-"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spelldescription",
+                "current": "Вы выбираете существо, видимое в пределах дистанции, и объявляете его своей добычей. Пока заклинание активно, вы причиняете цели дополнительный урон 1к6 каждый раз, когда попадаете по ней атакой оружием, и вы совершаете с преимуществом проверки Мудрости (Восприятие) и Мудрость (Выживание), совершённые для её поиска. Если хиты цели опускаются до 0, пока заклинание активно, вы можете в свой следующий ход бонусным действием выбрать целью новое существо.",
+                "max": "",
+                "id": "-MdtS_Uk0eMO0ZgIMmzC"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellathigherlevels",
+                "current": "Если вы накладываете это заклинание, используя ячейку 3 или 4 уровня, вы можете поддерживать концентрацию 8 часов. Если вы используете ячейку заклинания 5 уровня или выше, вы можете поддерживать концентрацию 24 часа.",
+                "max": "",
+                "id": "-MdtSjbbBNOcrYItTz7h"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_rollcontent",
+                "current": "@{wtype}&{template:spell} {{level=@{spellschool} ?{Cast at what level? @{spelllevel}|Level 1,1|Level 2,2|Level 3,3|Level 4,4|Level 5,5|Level 6,6|Level 7,7|Level 8,8|Level 9,9}}} {{name=@{spellname}}} {{castingtime=@{spellcastingtime}}} {{range=@{spellrange}}} {{target=@{spelltarget}}} @{spellcomp_v} @{spellcomp_s} @{spellcomp_m} {{material=@{spellcomp_materials}}} {{duration=@{spellduration}}} {{description=@{spelldescription}}} {{athigherlevels=@{spellathigherlevels}}} @{spellritual} {{innate=@{innate}}} {{savedc=@{spell_save_dc}}} @{spellconcentration} @{charname_output}",
+                "max": "",
+                "id": "-MdtSjfvkZT9n4cXLTlH"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtSuoyHkNqLoiUjTrB"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtSvpASnIJyrHKqU_D"
+            },
+            {
+                "name": "repeating_spell-1_-MdtSH-BYghGJvuuS86b_spellprepared",
+                "current": "1",
+                "max": "",
+                "id": "-MdtSw6qAtJYtkqru8jd"
+            },
+            {
+                "name": "lvl1_slots_expended",
+                "current": "4",
+                "max": "",
+                "id": "-MdtT3h9GEWeOblAe59K"
+            },
+            {
+                "name": "lvl2_slots_expended",
+                "current": "2",
+                "max": "",
+                "id": "-MdtT4nPpAumZanQvHi6"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spellname",
+                "current": "Удар Зефира",
+                "max": "",
+                "id": "-MdtTp2VzcCSOkq82VH5"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spellschool",
+                "current": "transmutation",
+                "max": "",
+                "id": "-MdtTptOT_hfI7A17jTP"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spellcastingtime",
+                "current": "1 бонусное действие",
+                "max": "",
+                "id": "-MdtTsyMnpnehOb-rv17"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spellcomp_s",
+                "current": "0",
+                "max": "",
+                "id": "-MdtTsznfyfsGxAxWb-4"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spellcomp_m",
+                "current": "0",
+                "max": "",
+                "id": "-MdtTtADHB_Dqc5sw7MB"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spellrange",
+                "current": "на себя",
+                "max": "",
+                "id": "-MdtTuqqDdsG9XH19aGt"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spelltarget",
+                "current": "хз",
+                "max": "",
+                "id": "-MdtTvocXJci54ESwGte"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spellconcentration",
+                "current": "{{concentration=1}}",
+                "max": "",
+                "id": "-MdtTvpkdkl5lnXLr97d"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spellduration",
+                "current": "до 1 минуты",
+                "max": "",
+                "id": "-MdtTx5avHhQ-AwZeGhc"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spell_ability",
+                "current": "@{wisdom_mod}+",
+                "max": "",
+                "id": "-MdtTxKsTCqvoFLlTjW1"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_roll_output_dc",
+                "current": 15,
+                "max": "",
+                "id": "-MdtTxXfv5VH1DvzKg-N"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spelldescription",
+                "current": "Вы движетесь подобно ветру. Пока действует заклинание, ваше движение не вызывает провоцированных атак.\n\nЕдиножды до окончания действия заклинания вы можете получить преимущество к одной атаке оружием в свой ход. Эта атака наносит дополнительные 1к8 урона силовым полем при попадании. Вне зависимости от того, попали вы или промахнулись, ваша пешая скорость передвижения увеличивается на 30 футов до конца этого хода.",
+                "max": "",
+                "id": "-MdtU0Wfx8IE3w9KJxjt"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spellclass",
+                "current": "следопыт",
+                "max": "",
+                "id": "-MdtU2VMKGQ3WyY95If0"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spellsource",
+                "current": "1 лвл",
+                "max": "",
+                "id": "-MdtU3tqcuYPyDzNVEB_"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtU3vrHDSQWSEYth-z"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtU4zbMd1-QE7IyGPa"
+            },
+            {
+                "name": "repeating_spell-1_-MdtTlavosoeIlPWu1Sm_spellprepared",
+                "current": "1",
+                "max": "",
+                "id": "-MdtU5IpuLHGoR5RC2CG"
+            },
+            {
+                "name": "repeating_spell-1_-MdtU5gAMQzQ9vpe9tAp_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtU9ARTZ0saa3hpMVS"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spellname",
+                "current": "Завеса стрел",
+                "max": "",
+                "id": "-MdtUi058fmvF7b2dgHN"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spellschool",
+                "current": "transmutation",
+                "max": "",
+                "id": "-MdtUiGs4OOfKErgDAlw"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spellcastingtime",
+                "current": "1 действие",
+                "max": "",
+                "id": "-MdtUjyEfyXy6SqWnfg9"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spellrange",
+                "current": "5 футов",
+                "max": "",
+                "id": "-MdtUkwKc2fFNyD8H0nj"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spellcomp_materials",
+                "current": "как минимум 4 стрелы",
+                "max": "",
+                "id": "-MdtUona2z-rodAHaQrv"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spelltarget",
+                "current": "пиздить",
+                "max": "",
+                "id": "-MdtUqlxgtkrR5kbicfd"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spellduration",
+                "current": "8 часов",
+                "max": "",
+                "id": "-MdtUrrEl_KfnyzZ_PD6"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spell_ability",
+                "current": "@{wisdom_mod}+",
+                "max": "",
+                "id": "-MdtUs5UOwD9ywLxjvCV"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_roll_output_dc",
+                "current": 15,
+                "max": "",
+                "id": "-MdtUsJ-WrmpQyaQGIf_"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spelldescription",
+                "current": "Вы втыкаете четыре немагических боеприпаса — стрелы или арбалетные болты — в землю в пределах дистанции и накладываете на них заклинание, защищающее область. Пока заклинание активно, каждый раз, когда другое существо кроме вас впервые за ход оказывается в пределах 30 футов от боеприпасов или оканчивает там ход, один боеприпас вылетает и атакует его. Существо должно преуспеть в спасброске Ловкости, иначе оно получит колющий урон 1к6. Боеприпас при этом уничтожается. Заклинание заканчивается, когда кончаются боеприпасы. Накладывая это заклинание, вы можете указать любых существ, которых это заклинание будет игнорировать.",
+                "max": "",
+                "id": "-MdtUuUEYiOorfZtg6Ls"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spellathigherlevels",
+                "current": "Если вы накладываете это заклинание, используя ячейку 3 уровня или выше, количество боеприпасов увеличивается на два за каждый уровень ячейки выше второго.",
+                "max": "",
+                "id": "-MdtUzCEBSIMmtIAnO7T"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_rollcontent",
+                "current": "@{wtype}&{template:spell} {{level=@{spellschool} ?{Cast at what level? @{spelllevel}|Level 2,2|Level 3,3|Level 4,4|Level 5,5|Level 6,6|Level 7,7|Level 8,8|Level 9,9}}} {{name=@{spellname}}} {{castingtime=@{spellcastingtime}}} {{range=@{spellrange}}} {{target=@{spelltarget}}} @{spellcomp_v} @{spellcomp_s} @{spellcomp_m} {{material=@{spellcomp_materials}}} {{duration=@{spellduration}}} {{description=@{spelldescription}}} {{athigherlevels=@{spellathigherlevels}}} @{spellritual} {{innate=@{innate}}} {{savedc=@{spell_save_dc}}} @{spellconcentration} @{charname_output}",
+                "max": "",
+                "id": "-MdtUzcrrHZuOdxCMDr8"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spellclass",
+                "current": "следопыт",
+                "max": "",
+                "id": "-MdtV0J4mAI_vv7YH10m"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spellsource",
+                "current": "2 лвл",
+                "max": "",
+                "id": "-MdtV1mrmVgQPbULTj6p"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtV1pXbi-201juw6Vd"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtV2YI2K2THdKamyaS"
+            },
+            {
+                "name": "repeating_spell-2_-MdtU9nQGR5OQLthX2C1_spellprepared",
+                "current": "1",
+                "max": "",
+                "id": "-MdtV3t3H-u_C86qpZaw"
+            },
+            {
+                "name": "subclass",
+                "current": "Сумрачный охотник",
+                "max": "",
+                "id": "-MdtVjL_erdSv52O3T8q"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtW7oqhIStjQfi-m92_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtW8tI3rNEIFElCRAG"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtW7oqhIStjQfi-m92_prof_type",
+                "current": "ОРУЖИЕ",
+                "max": "",
+                "id": "-MdtWa28jEb_qzOG0sBS"
+            },
+            {
+                "name": "repeating_traits_-MdtWhkbL5FgADID69YZ_name",
+                "current": "Угроза из засады",
+                "max": "",
+                "id": "-MdtWn7in3u2TTJrkHvf"
+            },
+            {
+                "name": "repeating_traits_-MdtWhkbL5FgADID69YZ_source",
+                "current": "Класс",
+                "max": "",
+                "id": "-MdtWnQ0DcKVakxu9A5h"
+            },
+            {
+                "name": "repeating_traits_-MdtWhkbL5FgADID69YZ_description",
+                "current": "На 3 уровне вы овладеваете мастерством засад. Вы можете добавить бонус к броску инициативы равный вашему модификатору Мудрости.\n\nВ начале боя ваша скорость хода увеличивается на 10 футов до конца хода. Если вы используете действие Атаки в ход вы можете сделать одну дополнительную атаку оружием, как часть этого действия.\n\nЕсли эта атака попадает, цель получает дополнительно 1к8 урона, такого же типа, что и урон оружия.",
+                "max": "",
+                "id": "-MdtWpiISKuKt7faUg8P"
+            },
+            {
+                "name": "repeating_traits_-MdtWhkbL5FgADID69YZ_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtWpjIO0pD2ESWWUaC"
+            },
+            {
+                "name": "repeating_traits_-MdtWhkbL5FgADID69YZ_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MdtWr8NpckPDBWIxjA1"
+            },
+            {
+                "name": "perception_flat",
+                "current": "4",
+                "max": "",
+                "id": "-MdtXM7TGekRQKtf1DTt"
+            },
+            {
+                "name": "repeating_traits_-MdtXdJSbVFJr-csRrQE_name",
+                "current": "Исследователь природы",
+                "max": "",
+                "id": "-MdtXfdhXhPF4RPz_sWR"
+            },
+            {
+                "name": "repeating_traits_-MdtXdJSbVFJr-csRrQE_source",
+                "current": "Класс",
+                "max": "",
+                "id": "-MdtXfuaETWcfoIl1GC5"
+            },
+            {
+                "name": "repeating_traits_-MdtXdJSbVFJr-csRrQE_description",
+                "current": "ЛЕС.\nКогда вы совершаете проверку Интеллекта или Мудрости, связанную с известной вам местностью, ваш бонус мастерства удваивается, если вы используете навык, которым владеете. \n\nПутешествуя по избранной вами местности в течении часа или более, вы получаете следующие преимущества:\n\n--Труднопроходимая местность не замедляет путешествие группы.\n--Ваша группа не может заблудиться, кроме как по вине магии.\n--Даже когда вы занимаетесь другой деятельностью во время путешествия (например, ищете пищу, ориентируетесь или выслеживание), вы остаётесь готовы к опасности.\n--Если вы путешествуете в одиночку, вы можете перемещаться скрытно в нормальном темпе.\n--Когда вы ищете пищу, то находите в два раза больше, чем обычно.\n--Когда вы выслеживаете других существ, вы также узнаёте их точное количество, их размеры и как давно они прошли через область.\n--Вы можете выбрать дополнительную известную местность на 6 и 10 уровнях.",
+                "max": "",
+                "id": "-MdtYCAEEFXsMfQXKQfR"
+            },
+            {
+                "name": "repeating_traits_-MdtXdJSbVFJr-csRrQE_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtYCBIO9lncvQXKzd1"
+            },
+            {
+                "name": "repeating_traits_-MdtXdJSbVFJr-csRrQE_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MdtYCnXBcCXZWFMTimO"
+            },
+            {
+                "name": "repeating_inventory_-MdtCJZuYciAut4-xF-T_inventorysubflag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtZedBztyo-by1TI6A"
+            },
+            {
+                "name": "stealth_prof",
+                "current": "(@{pb}*@{stealth_type})",
+                "max": "",
+                "id": "-Mdt_I3gx1bI8XK2e2mp"
+            },
+            {
+                "name": "insight_prof",
+                "current": "(@{pb}*@{insight_type})",
+                "max": "",
+                "id": "-Mdt_Jh39etCEiAksL_U"
+            },
+            {
+                "name": "investigation_prof",
+                "current": "(@{pb}*@{investigation_type})",
+                "max": "",
+                "id": "-Mdt_SBwj6xKwZS_Py3l"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtW7oqhIStjQfi-m92_name",
+                "current": "Простое оружие, воинское оружие",
+                "max": "",
+                "id": "-Mdt_gabo2HbMURO5X25"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtZh05qlq0iaDn6od0_prof_type",
+                "current": "БРОНЯ",
+                "max": "",
+                "id": "-Mdt_ih0W4UkK5Nhkipg"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtZh05qlq0iaDn6od0_name",
+                "current": "Лёгкие доспехи, средние доспехи, щиты",
+                "max": "",
+                "id": "-Mdt_jGa-YZVqkIx6G2c"
+            },
+            {
+                "name": "repeating_proficiencies_-MdtZh05qlq0iaDn6od0_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-Mdt_jHwpj1SkNgNo1yg"
+            },
+            {
+                "name": "repeating_inventory_-MdtatbEvZ7TKNtlPrNw_itemname",
+                "current": "Кираса",
+                "max": "",
+                "id": "-Mdtav_ggwQCgnCXdCXm"
+            },
+            {
+                "name": "initmod",
+                "current": "3",
+                "max": "",
+                "id": "-MdtcGpH4vIInTxVe7UP"
+            },
+            {
+                "name": "repeating_traits_-MdtcdQH42ZdJp8mZHYM_name",
+                "current": "ТЕНЕВОЙ ВЗОР",
+                "max": "",
+                "id": "-MdtchBhd49iyb0D6xW4"
+            },
+            {
+                "name": "repeating_traits_-MdtcdQH42ZdJp8mZHYM_description",
+                "current": "Тёмное зрение 90фт. Вы также сведущи в уклонении от существ, которые полагаются на Тёмное зрение. Находясь во тьме, вы невидимы для любого существа, полагающегося на Тёмное зрение, чтобы увидеть вас в этой темноте. ",
+                "max": "",
+                "id": "-MdtcoUVMr2A1TJpPPuR"
+            },
+            {
+                "name": "repeating_traits_-MdtcdQH42ZdJp8mZHYM_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtcuOA_S5aqQPtjCAY"
+            },
+            {
+                "name": "repeating_traits_-MdtcdQH42ZdJp8mZHYM_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-Mdtcuy6yDCGjnERRt9E"
+            },
+            {
+                "name": "repeating_traits_-MdtdGrnDGOhsh1lMr1x_name",
+                "current": "ИЗНАЧАЛЬНОЕ ЧУТЬЕ",
+                "max": "",
+                "id": "-MdtdIU1N-b_mPc7iTXK"
+            },
+            {
+                "name": "repeating_traits_-MdtdGrnDGOhsh1lMr1x_source",
+                "current": "Класс",
+                "max": "",
+                "id": "-MdtdK1zZwYCUrZdwp6k"
+            },
+            {
+                "name": "repeating_traits_-MdtdGrnDGOhsh1lMr1x_description",
+                "current": "полнительные заклинания при достижении определенного уровня в этом классе, если вы не знаете их, как указано в таблице ниже. Эти заклинания не учитываются в общем количестве известных вам заклинаний.\n-----------------------------------------------\nЗаклинания Изначального чутья\n\nВы можете единожды применить каждое из этих заклинаний без использования ячеек заклинания. Как только вы используете заклинание таким образом, вы больше не сможете сделать это повторно до окончания продолжительного отдыха.",
+                "max": "",
+                "id": "-MdtdO6nwwdZdnimnQCO"
+            },
+            {
+                "name": "repeating_traits_-MdtdGrnDGOhsh1lMr1x_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtdO8LFesb-GyECuvl"
+            },
+            {
+                "name": "repeating_traits_-MdtdGrnDGOhsh1lMr1x_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MdtdPjMQ5JDbyjU2oK2"
+            },
+            {
+                "name": "repeating_traits_-MdtcdQH42ZdJp8mZHYM_source",
+                "current": "Класс",
+                "max": "",
+                "id": "-MdtdRCO3iRTJWc14Rat"
+            },
+            {
+                "name": "repeating_traits_-Mdtdt4eZNXAZcVV9Ail_source",
+                "current": "Класс",
+                "max": "",
+                "id": "-Mdtdtbt4MJguQdm9mXB"
+            },
+            {
+                "name": "repeating_traits_-Mdtdt4eZNXAZcVV9Ail_name",
+                "current": "ВТОРОЕ ДЫХАНИЕ",
+                "max": "",
+                "id": "-Mdtdv1g1WcOGUtVESAb"
+            },
+            {
+                "name": "repeating_traits_-Mdtdt4eZNXAZcVV9Ail_description",
+                "current": "Вы обладаете ограниченным источником выносливости, которым можете воспользоваться, чтобы уберечь себя. В свой ход вы можете бонусным действием восстановить хиты в размере 1к10 + ваш уровень воина. \n\nИспользовав это умение, вы должны завершить короткий либо продолжительный отдых, чтобы получить возможность использовать его снова.",
+                "max": "",
+                "id": "-Mdtdxcd0WX2nZX6E05f"
+            },
+            {
+                "name": "repeating_traits_-Mdtdt4eZNXAZcVV9Ail_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-Mdtdxdobel-cccg3mVD"
+            },
+            {
+                "name": "repeating_traits_-Mdtdt4eZNXAZcVV9Ail_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MdtdyWOlDcW86J_v5AO"
+            },
+            {
+                "name": "repeating_traits_-Mdte5G343ZH5BwGfMVB_name",
+                "current": "ВСПЛЕСК ДЕЙСТВИЙ (одно использование)",
+                "max": "",
+                "id": "-Mdte6rEW8esVUmY6s-W"
+            },
+            {
+                "name": "repeating_traits_-Mdte5G343ZH5BwGfMVB_description",
+                "current": "Начиная со 2 уровня вы получаете возможность на мгновение преодолеть обычные возможности. В свой ход вы можете совершить одно дополнительное действие помимо обычного и бонусного действий.\n\nИспользовав это умение, вы должны завершить короткий или продолжительный отдых, чтобы получить возможность использовать его снова.",
+                "max": "",
+                "id": "-Mdte8HIVBJWO0u3zlif"
+            },
+            {
+                "name": "repeating_traits_-Mdte5G343ZH5BwGfMVB_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-Mdte8I_Fg16ktn4ykmg"
+            },
+            {
+                "name": "repeating_traits_-Mdte5G343ZH5BwGfMVB_source",
+                "current": "Класс",
+                "max": "",
+                "id": "-Mdte9e-UTo12eRI-Kkm"
+            },
+            {
+                "name": "repeating_traits_-Mdte5G343ZH5BwGfMVB_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MdteAKSLl5I7ey1iFLw"
+            },
+            {
+                "name": "multiclass1_subclass",
+                "current": "Мистический лучник",
+                "max": "",
+                "id": "-Mdtf-nBDfy3VFpwIZ7v"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtfKtEyS5lIquhIYoc_spellname",
+                "current": "фокусы",
+                "max": "",
+                "id": "-MdtfMDE9jkZLTyj_ICV"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtfKtEyS5lIquhIYoc_spellschool",
+                "current": "transmutation",
+                "max": "",
+                "id": "-MdtfMiGpjkOVC8VB_h0"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtfKtEyS5lIquhIYoc_spellcastingtime",
+                "current": "1 действие",
+                "max": "",
+                "id": "-MdtfOp7Pp1wNU2_CxI_"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtfKtEyS5lIquhIYoc_spellrange",
+                "current": "10 футов",
+                "max": "",
+                "id": "-MdtfRd6bBLsot9dCy-o"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtfKtEyS5lIquhIYoc_spellcomp_m",
+                "current": "0",
+                "max": "",
+                "id": "-MdtfReQpIcipQ9J8eDH"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtfKtEyS5lIquhIYoc_spellduration",
+                "current": "до 1 часа",
+                "max": "",
+                "id": "-MdtfU8-G3KVhbhjd1Bx"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtfKtEyS5lIquhIYoc_spell_ability",
+                "current": "@{wisdom_mod}+",
+                "max": "",
+                "id": "-MdtfUUN7AYXnrERlEHO"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtfKtEyS5lIquhIYoc_roll_output_dc",
+                "current": 15,
+                "max": "",
+                "id": "-MdtfUoZdWlqr7-2whJR"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtfKtEyS5lIquhIYoc_spelldescription",
+                "current": "Это заклинание — небольшой магический трюк, на котором практикуются начинающие заклинатели. Вы создаёте один из следующих магических эффектов в пределах дистанции:\nВы создаёте мгновенный безвредный сенсорный эффект, такой как сноп искр, порыв ветра, тихую мелодию, или необычный запах.\nВы мгновенно зажигаете или тушите свечу, факел или небольшой костёр.\nВы мгновенно чистите или мараете предмет, размерами не превышающий 1 кубического фута.\nВы остужаете, нагреваете или придаёте запах и вкус 1 кубическому футу неживой материи на 1 час.\nВы создаёте на поверхности или предмете маленькую цветную метку или символ, существующую 1 час.\nВы создаёте немагическую безделушку или иллюзорный предмет, помещающийся в вашу ладонь, и существующий до конца вашего следующего хода.\nЕсли вы накладываете это заклинание несколько раз, вы можете иметь не более трёх немгновенных эффектов одновременно, и можете действием окончить один любой из этих эффектов.",
+                "max": "",
+                "id": "-MdtfXI9EzGIU0PEdPZh"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtfKtEyS5lIquhIYoc_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtfXLqJ_b3yiUp7ODW"
+            },
+            {
+                "name": "repeating_spell-cantrip_-MdtfKtEyS5lIquhIYoc_details-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdtfYTsjAexp-lG6y9N"
+            },
+            {
+                "name": "repeating_traits_-Mdtg4bqXgJC2gFDlkGj_source",
+                "current": "Класс",
+                "max": "",
+                "id": "-Mdtg5LjUAFj2jKoN4FX"
+            },
+            {
+                "name": "repeating_traits_-Mdtg4bqXgJC2gFDlkGj_name",
+                "current": "Взрывная стрела\\сжимающая стрела",
+                "max": "",
+                "id": "-Mdtg7N6vhe9IrZ-IXsa"
+            },
+            {
+                "name": "repeating_traits_-Mdtg4bqXgJC2gFDlkGj_description",
+                "current": "Взрывная стрела. Вы наделяете вашу стрелу энергией силы, взятой из школы воплощения. Эта энергия взрывается после вашей атаки. Сразу же после того как стрела попадает по существу, цель и все остальные существа в радиусе 10 футов от нее каждое получает по 2к6 урона силовым полем.\n---------------------------------------------------\nКогда эта стрела попадает по цели, магия призыва создает хватающие, ядовитые колючие кусты, которые обвивают цель. Существо, по которому попала стрела, получает дополнительно 2к6 урона ядом, его скорость уменьшена на 10 футов и оно получает 2к6 рубящего урона каждый ход, когда сдвигается на 1 фут или больше без телепортации в первый раз за ход.\n\nЦель или любое существо, которое может до него дотянуться, может действием убрать кусты с помощью успешной проверки Силы (Атлетика) против Сл спасброска вашего Магического выстрела. В противном случае кусты остаются на 1 минуту, либо пока вы снова не используете этот вариант магического выстрела.",
+                "max": "",
+                "id": "-Mdtg8lisB5QHkI7AXEf"
+            },
+            {
+                "name": "repeating_traits_-Mdtg4bqXgJC2gFDlkGj_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-Mdtg96XBHltXxThC9NU"
+            },
+            {
+                "name": "repeating_traits_-Mdtg4bqXgJC2gFDlkGj_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MdtgrrETkg9OwVZf-6t"
+            },
+            {
+                "name": "repeating_traits_-MdthPUQ2P-OUHBQNiEP_name",
+                "current": "ПРЕДПОЧТИТЕЛЬНЫЙ ПРОТИВНИК",
+                "max": "",
+                "id": "-MdthQG0BWwIi_LbR2R7"
+            },
+            {
+                "name": "repeating_traits_-MdthPUQ2P-OUHBQNiEP_source",
+                "current": "Класс",
+                "max": "",
+                "id": "-MdthQr1Yc0QRBs4SAx2"
+            },
+            {
+                "name": "repeating_traits_-MdthPUQ2P-OUHBQNiEP_description",
+                "current": "Когда вы попадаете атакой по существу, вы можете призвать силы природы, чтобы отметить существо и сделать его вашим заклятым противником на 1 минуту или до тех пор, не потеряете концентрацию (как если бы вы концентрировались на заклинании).\n\nВпервые в каждый свой ход, когда вы попадаете атакой по предпочтительному противнику и наносите ему урон, в том числе и когда вы отмечаете его, вы можете дополнительно нанести 1к4 урона того же типа.\n\nВы можете использовать это умение для отметки предпочтительного врага количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования после долгого отдыха.",
+                "max": "",
+                "id": "-MdthVuvdxwthy2Fzobq"
+            },
+            {
+                "name": "repeating_traits_-MdthPUQ2P-OUHBQNiEP_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdthVwNwy86UCZDhMai"
+            },
+            {
+                "name": "repeating_traits_-MdthPUQ2P-OUHBQNiEP_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-MdthXX6OT-yHlK2_GQA"
+            },
+            {
+                "name": "repeating_traits_-MdthZ2j7IwHyzatkRy0_name",
+                "current": "доп атака",
+                "max": "",
+                "id": "-Mdthb3Liil9_yzPmnCF"
+            },
+            {
+                "name": "repeating_traits_-MdthZ2j7IwHyzatkRy0_source",
+                "current": "Класс",
+                "max": "",
+                "id": "-MdthbftJjjpdcChwxKi"
+            },
+            {
+                "name": "repeating_traits_-MdthZ2j7IwHyzatkRy0_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdthdGLZeIriV7_8x-7"
+            },
+            {
+                "name": "repeating_traits_-MdthZ2j7IwHyzatkRy0_display_flag",
+                "current": "0",
+                "max": "",
+                "id": "-MdthdvFmSTGK54QaY9m"
+            },
+            {
+                "name": "repeating_attack_-MdtDK8nAt8W9wVMZUzs_atkattr_base",
+                "current": "@{dexterity_mod}",
+                "max": "",
+                "id": "-MdtjxuBkybLL5Xz1gyX"
+            },
+            {
+                "name": "sleight_of_hand_prof",
+                "current": "(@{pb}*@{sleight_of_hand_type})",
+                "max": "",
+                "id": "-Mdtl9h7KdOu8Bk78eG8"
+            },
+            {
+                "name": "history_prof",
+                "current": "0",
+                "max": "",
+                "id": "-MdtlCEpSWjt-3hQAhin"
+            },
+            {
+                "name": "animal_handling_prof",
+                "current": "(@{pb}*@{animal_handling_type})",
+                "max": "",
+                "id": "-MdtlpaylI9hhQAmnFUl"
+            },
+            {
+                "name": "repeating_inventory_-MdtatbEvZ7TKNtlPrNw_inventorysubflag",
+                "current": "0",
+                "max": "",
+                "id": "-Mdto0YTPae5XRG1okx5"
+            },
+            {
+                "name": "personality_traits",
+                "current": "Необщителен, осторожен, всегда ожидает худшего.",
+                "max": "",
+                "id": "-Mdtol_Dc374wZAMMcxu"
+            },
+            {
+                "name": "ideals",
+                "current": "Роскошная и богатая жизнь с братом.",
+                "max": "",
+                "id": "-MdtovfhQhexW2vCkLoJ"
+            },
+            {
+                "name": "bonds",
+                "current": "Игорь и Боря, старший брат - Румфольд Рэтран.",
+                "max": "",
+                "id": "-Mdtp2KoBWJK2GrMqcIR"
+            },
+            {
+                "name": "flaws",
+                "current": "Редко кому доверяет.",
+                "max": "",
+                "id": "-Mdtp9oN34T-sUbu7wEz"
+            },
+            {
+                "name": "gp",
+                "current": "194",
+                "max": "",
+                "id": "-Mdv_nuvoFn1JLExGB5B"
+            },
+            {
+                "name": "advantagetoggle",
+                "current": "{{query=1}} {{advantage=1}} {{r2=[[@{d20}",
+                "max": "",
+                "id": "-Mdvv_Q1EVL_pTJWraHo"
+            },
+            {
+                "name": "repeating_inventory_-Mdw-3C5UPnmWMJhxJC4_itemname",
+                "current": "Говорящий с камнями кристалл ",
+                "max": "",
+                "id": "-Mdw-9jl2v_0rPJao6E-"
+            },
+            {
+                "name": "repeating_inventory_-Mdw-3C5UPnmWMJhxJC4_inventorysubflag",
+                "current": "0",
+                "max": "",
+                "id": "-Mdw6jwVBHsppfC6Pgfn"
+            },
+            {
+                "name": "repeating_inventory_-Mdw-3C5UPnmWMJhxJC4_itemproperties",
+                "current": "https://dungeon.su/items/2371-stonespeaker_crystal/",
+                "max": "",
+                "id": "-Mdw6nU6TY4_ui3oXDDv"
+            },
+            {
+                "name": "repeating_inventory_-Mdw-3C5UPnmWMJhxJC4_itemcount",
+                "current": "1",
+                "max": "",
+                "id": "-Mdw6qF8PuDa2vfbMDB-"
+            },
+            {
+                "name": "filter_traits_by",
+                "current": "",
+                "max": "",
+                "id": "-NQaGXAbrEeh5zXNdRu8"
+            },
+            {
+                "name": "kingmaker_tab",
+                "current": "nav-tabs-kingmaker--settings",
+                "max": "",
+                "id": "-NQaGXQSudu0OGevmPBP"
+            },
+            {
+                "name": "kingdom_culture_action",
+                "current": "%{Арамиль Рэтран|kingdom-culture-action}",
+                "max": "",
+                "id": "-NQaGXQZ3tLj4Ukb_Xfj"
+            },
+            {
+                "name": "kingdom_economy_action",
+                "current": "%{Арамиль Рэтран|kingdom-economy-action}",
+                "max": "",
+                "id": "-NQaGXQf0B4zyqeSgmOI"
+            },
+            {
+                "name": "kingdom_loyalty_action",
+                "current": "%{Арамиль Рэтран|kingdom-loyalty-action}",
+                "max": "",
+                "id": "-NQaGXQmXVraRNTPcDMO"
+            },
+            {
+                "name": "kingdom_stability_action",
+                "current": "%{Арамиль Рэтран|kingdom-stability-action}",
+                "max": "",
+                "id": "-NQaGXQuYHNfDTTMV0M2"
+            },
+            {
+                "name": "kingdom_agriculture_action",
+                "current": "%{Арамиль Рэтран|kingdom-agriculture-action}",
+                "max": "",
+                "id": "-NQaGXQzTr9P9rt9MvNw"
+            },
+            {
+                "name": "kingdom_arts_action",
+                "current": "%{Арамиль Рэтран|kingdom-arts-action}",
+                "max": "",
+                "id": "-NQaGXR3MG-hyMXIix5k"
+            },
+            {
+                "name": "kingdom_boating_action",
+                "current": "%{Арамиль Рэтран|kingdom-boating-action}",
+                "max": "",
+                "id": "-NQaGXRCA5-wMWIOKEwG"
+            },
+            {
+                "name": "kingdom_defense_action",
+                "current": "%{Арамиль Рэтран|kingdom-defense-action}",
+                "max": "",
+                "id": "-NQaGXRJDsFYDLSOyf1x"
+            },
+            {
+                "name": "kingdom_engineering_action",
+                "current": "%{Арамиль Рэтран|kingdom-engineering-action}",
+                "max": "",
+                "id": "-NQaGXRQmHKGFrepILmD"
+            },
+            {
+                "name": "kingdom_exploration_action",
+                "current": "%{Арамиль Рэтран|kingdom-exploration-action}",
+                "max": "",
+                "id": "-NQaGXRXSjAzJ64yWZBH"
+            },
+            {
+                "name": "kingdom_folklore_action",
+                "current": "%{Арамиль Рэтран|kingdom-folklore-action}",
+                "max": "",
+                "id": "-NQaGXRcT5jkAtV3Ck-V"
+            },
+            {
+                "name": "kingdom_industry_action",
+                "current": "%{Арамиль Рэтран|kingdom-industry-action}",
+                "max": "",
+                "id": "-NQaGXRjDHdgA7GyUC84"
+            },
+            {
+                "name": "kingdom_intrigue_action",
+                "current": "%{Арамиль Рэтран|kingdom-intrigue-action}",
+                "max": "",
+                "id": "-NQaGXRqomisXYlCqf-D"
+            },
+            {
+                "name": "kingdom_magic_action",
+                "current": "%{Арамиль Рэтран|kingdom-magic-action}",
+                "max": "",
+                "id": "-NQaGXRw_AV0yY_APf18"
+            },
+            {
+                "name": "kingdom_politics_action",
+                "current": "%{Арамиль Рэтран|kingdom-politics-action}",
+                "max": "",
+                "id": "-NQaGXS1AmYCJZ-z1GCi"
+            },
+            {
+                "name": "kingdom_scholarship_action",
+                "current": "%{Арамиль Рэтран|kingdom-scholarship-action}",
+                "max": "",
+                "id": "-NQaGXS6MPew141KrPEA"
+            },
+            {
+                "name": "kingdom_statecraft_action",
+                "current": "%{Арамиль Рэтран|kingdom-statecraft-action}",
+                "max": "",
+                "id": "-NQaGXSD5kkzr7nUv0sQ"
+            },
+            {
+                "name": "kingdom_trade_action",
+                "current": "%{Арамиль Рэтран|kingdom-trade-action}",
+                "max": "",
+                "id": "-NQaGXSLtvWG-8puh4tv"
+            },
+            {
+                "name": "kingdom_warfare_action",
+                "current": "%{Арамиль Рэтран|kingdom-warfare-action}",
+                "max": "",
+                "id": "-NQaGXSVfiW9I-ipfYmX"
+            },
+            {
+                "name": "kingdom_wilderness_action",
+                "current": "%{Арамиль Рэтран|kingdom-wilderness-action}",
+                "max": "",
+                "id": "-NQaGXSdJ8nKkcehZr4g"
+            },
+            {
+                "name": "army_scouting_action",
+                "current": "%{Арамиль Рэтран|army-scouting-action}",
+                "max": "",
+                "id": "-NQaGXSm5Z4UEPjtWLdg"
+            },
+            {
+                "name": "army_maneuver_action",
+                "current": "%{Арамиль Рэтран|army-maneuver-action}",
+                "max": "",
+                "id": "-NQaGXStFcM5OT7szvzm"
+            },
+            {
+                "name": "army_morale_action",
+                "current": "%{Арамиль Рэтран|army-morale-action}",
+                "max": "",
+                "id": "-NQaGXT0oSIOblmzKZr4"
+            },
+            {
+                "name": "army_ranged_action",
+                "current": "%{Арамиль Рэтран|army-ranged-action}",
+                "max": "",
+                "id": "-NQaGXT9xeppmobthH_6"
+            },
+            {
+                "name": "sheet_version",
+                "current": 1,
+                "max": "",
+                "id": "-NQaGXTHRnbceEE48txS"
+            },
+            {
+                "name": "other_tool",
+                "current": "",
+                "max": "",
+                "id": "-NQaGX_kyM6UQct4atXk"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIOZ6QUeGGFVNNIBz_name",
+                "current": "Common",
+                "max": "",
+                "id": "-NQaITZ6PWczJsx3DbE8"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIOZ6QUeGGFVNNIBz_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaITaZm70JAlHHO4IU"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaITrOmd5A0xXntFcT_name",
+                "current": "Dwarvish",
+                "max": "",
+                "id": "-NQaIW8vbfTuQmg6l6dE"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaITrOmd5A0xXntFcT_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaIWB7yq-SdI3I_qsn"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIWUAp5J0Z0VA2W2x_name",
+                "current": "Elvish",
+                "max": "",
+                "id": "-NQaIYFnQlRvy4r3kDyk"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIWUAp5J0Z0VA2W2x_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaIYI-nM4CWtj55aHh"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIYguE3Oe5wKbZHqu_name",
+                "current": "Giant",
+                "max": "",
+                "id": "-NQaI_oOWW_hv51sHVA6"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIYguE3Oe5wKbZHqu_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaI_qdI5BwhkbE5-2O"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIa57s9gF76ff3Ew5_name",
+                "current": "Gnomish",
+                "max": "",
+                "id": "-NQaIcD2Zsepc5Tt2ahK"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIa57s9gF76ff3Ew5_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaIcEoQ4uyN9oJb_RN"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIcUHlHlNMICZSCN8_name",
+                "current": "Goblin",
+                "max": "",
+                "id": "-NQaIeYu0OoAuQh8lfCi"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIcUHlHlNMICZSCN8_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaIea6c7McM8bX3swx"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIesXioI2Bylt2vPn_name",
+                "current": "Halfling",
+                "max": "",
+                "id": "-NQaIh_aqenkJAMBETMw"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIesXioI2Bylt2vPn_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaIhcEai3RS_opgt3V"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIi1biJWh8q6GZGC6_name",
+                "current": "Orc",
+                "max": "",
+                "id": "-NQaIkAQkUao90kYQDF9"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIi1biJWh8q6GZGC6_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaIkCiAO468h8msty3"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIkZyqTDv3GFnULll_name",
+                "current": "Abyssal",
+                "max": "",
+                "id": "-NQaInVQWvTvQ4PV7mFT"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIkZyqTDv3GFnULll_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaInXdd7_9BZ0EKhMq"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaInvTPxoMTCxiEjmx_name",
+                "current": "Celestial",
+                "max": "",
+                "id": "-NQaIq03Sb1fc7Z-C49S"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaInvTPxoMTCxiEjmx_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaIq1pOwXiLF6e7sBB"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIqSCJm9CD3B4FAa7_name",
+                "current": "Draconic",
+                "max": "",
+                "id": "-NQaIsPLdjMf_9N_L6B0"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIqSCJm9CD3B4FAa7_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaIsRHUIHrtpr0F2ad"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIsnyUnfBgco7OK5J_name",
+                "current": "Deep Speech",
+                "max": "",
+                "id": "-NQaIuwKnx_c9I0TjoW_"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIsnyUnfBgco7OK5J_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaIuy2lTpvFxIozReJ"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIvN6MGZzAMtgZTwA_name",
+                "current": "Infernal",
+                "max": "",
+                "id": "-NQaIx8oOLoix1GouGTr"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIvN6MGZzAMtgZTwA_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaIxAW0A2vs6HCpxej"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIxcyE7Oo8ZdqZ64-_name",
+                "current": "Primordial",
+                "max": "",
+                "id": "-NQaIzSJJb_T3msf1hfq"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIxcyE7Oo8ZdqZ64-_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaIzU_JyPiwYe89zUC"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIzsHZawIxlfQ5JQQ_name",
+                "current": "Sylvan",
+                "max": "",
+                "id": "-NQaJ0heyPyzQ-elyAaL"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaIzsHZawIxlfQ5JQQ_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaJ0k6TPxcyeQx-0Lt"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaJ164rEvrSf1xXT51_name",
+                "current": "Undercommon",
+                "max": "",
+                "id": "-NQaJ2uK2YFjP1OCh1z8"
+            },
+            {
+                "name": "repeating_proficiencies_-NQaJ164rEvrSf1xXT51_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NQaJ2w0p0snUS505B9k"
+            }
+        ],
+        "abilities": []
+    }
+}
